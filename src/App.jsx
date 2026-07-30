@@ -3,7 +3,7 @@ import Header from "./components/widgets/Header";
 import Layout from "./layouts/Layout";
 import { lazy, Suspense, useEffect, useState } from "react";
 import { Skeleton } from "@mui/material";
-import { CartProvider } from "./context/context";
+import { CartProvider } from "./context/Сontext";
 
 const HomePg = lazy(() => import("./pages/Home/Home"))
 const SalesPg = lazy(() => import("./pages/Sales/Sales"))
