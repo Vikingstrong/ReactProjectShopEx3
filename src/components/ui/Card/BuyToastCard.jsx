@@ -42,7 +42,7 @@ export default function BuyToastCard(){
                     <p className="text-2xl font-semibold text-[#7FC9F0]">{toastProduct.price} ₽</p>
                 </div>
             </div>
-            <Button variant="outlined"><NavLink to="cart">Перейти в корзину</NavLink></Button>
+            <NavLink to="cart"><Button variant="outlined">Перейти в корзину</Button></NavLink>
         </div>
     )
 }
