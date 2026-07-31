@@ -2,7 +2,7 @@ import { User, Pencil } from "lucide-react";
 
 export default function Profile() {
     return (
-        <main className="w-full max-w-[1200px] m-auto px-5 lg:px-0 pt-60 pb-20">
+        <main className="w-full max-w-300 m-auto px-5 lg:px-0 pt-60 pb-20">
             <h1 className="text-4xl font-semibold text-[#446B80] mb-10">Личные данные</h1>
 
             <div className="flex items-center gap-6 mb-12">
@@ -42,12 +42,7 @@ export default function Profile() {
                 <div className="flex flex-col gap-2">
                     <span className="text-gray-500 mb-2">Пароль</span>
                     <div className="flex items-center gap-5">
-                        <input
-                            type="password"
-                            value="****************"
-                            readOnly
-                            className="border border-gray-200 rounded-lg p-3 outline-none text-gray-400 w-full max-w-[300px] tracking-widest"
-                        />
+                        <input   type="password" placeholder="*******" className="border border-gray-200 rounded-lg p-3 outline-none text-gray-400 w-full max-w-[300px] tracking-widest"/>
                         <button className="text-[#7FC9F0] hover:underline cursor-pointer whitespace-nowrap">Изменить</button>
                     </div>
                 </div>
