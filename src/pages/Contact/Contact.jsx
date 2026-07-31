@@ -8,7 +8,7 @@ export default function Contact(){
             <Headline text="Контакты"/>
             <div className="flex flex-col gap-3">
                 <Headline size="2xl" text="Адрес"/>
-                <p>Республика Дагестан, г Махачкала, улица Батырая 108</p>
+                <p>Республика Дагестан, г Махачкала, улица Батырая 108 </p>
             </div>
             <div className="flex flex-col gap-3">
                 <Headline size="2xl" text="Телефон"/>
