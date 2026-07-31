@@ -44,7 +44,7 @@ export default function Header(){
             <div className="flex items-center justify-between py-5">
                 <div className="flex items-center gap-5">
                     <NavLink to="/"><img className="mr-5" src={logo} alt="" /></NavLink>
-                    <PrimaryButton text="Каталог товаров"/>
+                    <NavLink to="catalog"><PrimaryButton text="Каталог товаров"/></NavLink>
                     <InputSearch/>
                 </div>
                 <div className="flex items-center gap-10">
@@ -119,7 +119,7 @@ export default function Header(){
                 <NavLink to="/" className="font-semibold">Онлайн гипермаркет <br /> товаров для детей</NavLink>
                 <nav className="flex items-center gap-5 cursor-pointer">
                     <NavLink to="sales">Акции</NavLink>
-                    <NavLink to="">О нас</NavLink>
+                    <NavLink to="infoCompany">О нас</NavLink>
                     <NavLink to="blog">Блог</NavLink>
                     <NavLink to="catalog">Каталог Товаров</NavLink>
                     <NavLink to="">Возврат</NavLink>

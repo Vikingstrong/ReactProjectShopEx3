@@ -20,7 +20,7 @@ export default function HeaderForMobile() {
 
     const navLinks = [
         { name: "Акции", path: "sales" },
-        { name: "О нас", path: "/" },
+        { name: "О нас", path: "infoCompany" },
         { name: "Блог", path: "blog" },
         { name: "Каталог Товаров", path: "catalog" },
         { name: "Возврат", path: "/" },
@@ -52,7 +52,7 @@ export default function HeaderForMobile() {
                 />
             )}
 
-            <div className={`fixed top-0 left-0 h-[100dvh] w-[85%] max-w-[320px] bg-[#446B80] z-[101] transform transition-transform duration-300 ease-in-out lg:hidden ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'}`}>
+            <div className={`fixed top-0 left-0 h-[100dvh] w-[85%] max-w-[320px] bg-[#446B80] z-100 transform transition-transform duration-300 ease-in-out lg:hidden ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'}`}>
                 <div className="flex justify-end p-6">
                     <X
                         className="w-8 h-8 text-white cursor-pointer hover:text-gray-200 transition-colors"
