@@ -17,6 +17,7 @@ const CatalogPg = lazy(() => import("./pages/Catalog/Catalog"))
 const ContactPg = lazy(() => import("./pages/Contact/Contact"))
 const DostavkaPg = lazy(() => import("./pages/Dostavka/Dostavka"))
 const InfoCompanyPg = lazy(() => import("./pages/InfoCompany/InfoCompany"))
+const NotFoundPg = lazy(() => import("./pages//NotFound/NotFound"))
 
 
 let router = createBrowserRouter([
@@ -94,6 +95,12 @@ let router = createBrowserRouter([
         path: "infoCompany",
         element: (
           <InfoCompanyPg/>
+        )
+      },
+      {
+        path: "*",
+        element: (
+          <NotFoundPg/>
         )
       }
     ]
